@@ -1,0 +1,87 @@
+name: travel_tour_app
+description: Travel and Tour Management App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  provider: ^6.1.5+1
+
+  # HTTP & API
+  # dio: ^5.4.0
+  http: ^1.6.0  
+
+  # Storage
+  shared_preferences: ^2.5.4
+  flutter_secure_storage: ^10.0.0  
+  connectivity_plus: ^5.0.1
+
+
+  # UI Enhancements
+  flutter_svg: ^2.2.3 
+  cached_network_image: ^3.4.1 
+  carousel_slider: ^5.1.2 
+  intl: ^0.20.2 
+  syncfusion_flutter_datepicker: ^32.2.4  
+
+  # Forms & Validation
+  flutter_form_builder: ^10.3.0+2 
+  form_validator: ^2.1.1  
+
+  # Navigation
+  go_router: ^17.1.0  
+
+  # Charts for Dashboard
+  fl_chart: ^1.1.1  
+
+  # PDF Generation
+  printing: ^5.14.2 
+  pdf: ^3.11.3
+  path_provider: ^2.1.1 
+  share_plus: ^12.0.1
+
+  # Maps
+  # google_maps_flutter: ^2.14.2 
+  geolocator: ^14.0.2  
+  # google_maps_flutter_android: ^2.19.1
+  flutter_map: ^8.2.2
+  latlong2: ^0.9.1
+
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  
+  # Others
+  url_launcher: ^6.3.2 
+  image_picker: ^1.2.1 
+  file_picker: ^10.3.10 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
+  #   - assets/lottie/
+  
+  # fonts:
+  #   - family: Inter
+  #     fonts:
+  #       - asset: assets/fonts/Inter-Regular.ttf
+  #       - asset: assets/fonts/Inter-Medium.ttf
+  #         weight: 500
+  #       - asset: assets/fonts/Inter-SemiBold.ttf
+  #         weight: 600
+  #       - asset: assets/fonts/Inter-Bold.ttf
+  #         weight: 700
